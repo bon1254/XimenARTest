@@ -1,0 +1,514 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.44f1 (c3ae09b9f03c) revision 12824073'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'zh' Physical Memory: 130984 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.44f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/jimmy_kuo/UnityProjects/VuforiaTest/VuforiaTest
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+3609
+Successfully changed project path to: C:/Users/jimmy_kuo/UnityProjects/VuforiaTest/VuforiaTest
+C:/Users/jimmy_kuo/UnityProjects/VuforiaTest/VuforiaTest
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27644]  Target information:
+
+Player connection [27644]  * "[IP] 192.168.2.140 [Port] 0 [Flags] 2 [Guid] 724726023 [EditorId] 724726023 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-B8DA7PT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [27644] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [27644] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+Refreshing native plugins compatible for Editor in 22.16 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 3.10 ms.
+Initialize engine version: 2022.3.44f1 (c3ae09b9f03c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jimmy_kuo/UnityProjects/VuforiaTest/VuforiaTest/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3080 Ti (ID=0x2208)
+    Vendor:   NVIDIA
+    VRAM:     12086 MB
+    Driver:   32.0.15.6094
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56208
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.44f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.005135 seconds.
+- Loaded All Assemblies, in  0.440 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 224 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.437 seconds
+Domain Reload Profiling: 876ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (198ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (155ms)
+			TypeCache.Refresh (154ms)
+				TypeCache.ScanAssembly (135ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (437ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (407ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (277ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (92ms)
+			ProcessInitializeOnLoadMethodAttributes (34ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.957 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.730 seconds
+Domain Reload Profiling: 1685ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (16ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (772ms)
+		LoadAssemblies (470ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (381ms)
+			TypeCache.Refresh (325ms)
+				TypeCache.ScanAssembly (297ms)
+			ScanForSourceGeneratedMonoScriptInfo (46ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (606ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (76ms)
+			ProcessInitializeOnLoadAttributes (421ms)
+			ProcessInitializeOnLoadMethodAttributes (89ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 13.44 ms, found 12 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 6909 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 117 unused Assets / (2.0 MB). Loaded Objects now: 7328.
+Memory consumption went from 261.4 MB to 259.4 MB.
+Total: 5.878800 ms (FindLiveObjects: 0.437200 ms CreateObjectMapping: 0.172900 ms MarkObjects: 4.567300 ms  DeleteObjects: 0.700900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 72b91833f83ae208fae7752999fa3104 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 53236.860931 seconds.
+  path: Assets/Model/Texture/westGate_mod_1011_Normal.jpg
+  artifactKey: Guid(86296282ba4adb249bf3ba212eae76e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/westGate_mod_1011_Normal.jpg using Guid(86296282ba4adb249bf3ba212eae76e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '6524933792270daf2409e87ff940334a') in 0.076780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Model/Texture/WestGateWall_SP_1001_AlbedoTransparency.jpg
+  artifactKey: Guid(099830a2587715f48aeb5d27c38ade4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/WestGateWall_SP_1001_AlbedoTransparency.jpg using Guid(099830a2587715f48aeb5d27c38ade4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'e66f1fbbf7979f779fd1a5ce809a726c') in 0.013219 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Model/Texture/WestGateWall_SP_1004_Normal.jpg
+  artifactKey: Guid(b232fe03e92689a4f84241f90953c4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/WestGateWall_SP_1004_Normal.jpg using Guid(b232fe03e92689a4f84241f90953c4d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '3e0f9f3ea90e23b4c85a3e7c51b25734') in 0.015754 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Model/Texture/westGate_mod_1012_Normal.jpg
+  artifactKey: Guid(388f55c93b5f8554c98bbbff15ed79e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/westGate_mod_1012_Normal.jpg using Guid(388f55c93b5f8554c98bbbff15ed79e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '318cbf7ad73db94dc3e1bc2d85e9f81d') in 0.012649 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Model/Texture/westGate_mod_1015_Normal.jpg
+  artifactKey: Guid(28a01f30f28cd3a4bb77e5ef8a615d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/westGate_mod_1015_Normal.jpg using Guid(28a01f30f28cd3a4bb77e5ef8a615d39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '88234b4454142a2dfc4e6fc8ed700c2f') in 0.011097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.999344 seconds.
+  path: Assets/Model/Texture/WestGateWall_SP_1005_AlbedoTransparency.jpg
+  artifactKey: Guid(0924267258939cf4b800ecaff62de2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/WestGateWall_SP_1005_AlbedoTransparency.jpg using Guid(0924267258939cf4b800ecaff62de2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '52c8c248140173aa07e7c81884a04faa') in 0.011853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Model/Texture/WestGateWall_SP_1006_AlbedoTransparency.jpg
+  artifactKey: Guid(3f457e16811f3c24ca0172c8486ea2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/WestGateWall_SP_1006_AlbedoTransparency.jpg using Guid(3f457e16811f3c24ca0172c8486ea2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '88d01ab43ae97e3f06d8b104cd5cda9d') in 0.011398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.006421 seconds.
+  path: Assets/Model/Texture/WestGateWall_SP_1007_AlbedoTransparency.jpg
+  artifactKey: Guid(15c4e935a3e39b84281b17f50eef8aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/WestGateWall_SP_1007_AlbedoTransparency.jpg using Guid(15c4e935a3e39b84281b17f50eef8aef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9b19267d44bfb019cf7ecb317b4323af') in 0.010626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Model/Texture/WestGateWall_SP_1008_AO.jpg
+  artifactKey: Guid(e3e3381624da24b4a8ebef822bcd353e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/WestGateWall_SP_1008_AO.jpg using Guid(e3e3381624da24b4a8ebef822bcd353e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a71afaf4e228a0849baf8b044428d81a') in 0.009887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.005921 seconds.
+  path: Assets/Model/Texture/WestGateWall_SP_1009_AlbedoTransparency.jpg
+  artifactKey: Guid(52fa9a3b6839e7b428adea0087977b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/WestGateWall_SP_1009_AlbedoTransparency.jpg using Guid(52fa9a3b6839e7b428adea0087977b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1a05e26da4e15c0e9abf7585cb37f6a7') in 0.009409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Model/Texture/WestGateWall_SP_1010_MetallicSmoothness.png
+  artifactKey: Guid(45ed47dfe74042e44b0aba3fd973aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/WestGateWall_SP_1010_MetallicSmoothness.png using Guid(45ed47dfe74042e44b0aba3fd973aa41) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2a6a6771c3c3dff68ea62e4ff93873f1') in 0.004919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.283387 seconds.
+  path: Assets/Model/Texture/WestGateWall_SP_1011_AlbedoTransparency.jpg
+  artifactKey: Guid(6ea71bba2b0d87042823521bfbb09399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/WestGateWall_SP_1011_AlbedoTransparency.jpg using Guid(6ea71bba2b0d87042823521bfbb09399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'f689881514a47291921ea3e91a6f8614') in 0.012848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.853096 seconds.
+  path: Assets/Model/Texture/westGate_mod_1005_AlbedoTransparency.jpg
+  artifactKey: Guid(395a82461e64c6b4eb50e48bfbd74912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/westGate_mod_1005_AlbedoTransparency.jpg using Guid(395a82461e64c6b4eb50e48bfbd74912) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'aa39c196b30c1b4d4027375dc7d083b8') in 0.010400 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Model/Texture/westGate_mod_1011_AO.jpg
+  artifactKey: Guid(8911edd1a4d3e894895b3ce61540a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Texture/westGate_mod_1011_AO.jpg using Guid(8911edd1a4d3e894895b3ce61540a199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a4ff7b988a8b8d970acaad091ab19aaf') in 0.009386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 45.213068 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/AppStore/bg.psd
+  artifactKey: Guid(aeb269eeeb2ae45508c3a92201bba3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/AppStore/bg.psd using Guid(aeb269eeeb2ae45508c3a92201bba3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '2945f682826ad658151b4785ea733e26') in 0.029460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/ImmersalLogos/IM_1 line white.png
+  artifactKey: Guid(8f7941c3d960b43448c58151204f2fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/ImmersalLogos/IM_1 line white.png using Guid(8f7941c3d960b43448c58151204f2fcf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'b5182c94ceebb689a9d214907024f024') in 0.020207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Navigation/Graph/icon_crosshair.psd
+  artifactKey: Guid(16364fca4d9544e438c4ef1de0d9244e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Navigation/Graph/icon_crosshair.psd using Guid(16364fca4d9544e438c4ef1de0d9244e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1c9c414d77602daee982da1600c24838') in 0.013573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Content Placement/icon_contentPlacement_sample.psd
+  artifactKey: Guid(f798cb54723bf354182b9f666a85fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Content Placement/icon_contentPlacement_sample.psd using Guid(f798cb54723bf354182b9f666a85fc60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'a85888d13fab55bffee52aa74b09198b') in 0.018449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+  artifactKey: Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset using Guid(8f586378b4e144a9851e7b34d9b748ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '47976e4c04631d8c717f3cb1f9be11d5') in 0.199589 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 28
+========================================================================
+Received Import Request.
+  Time since last request: 59.248081 seconds.
+  path: Assets/Model/Material
+  artifactKey: Guid(d74fd77c26499354b8fdf1804ecd6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Model/Material using Guid(d74fd77c26499354b8fdf1804ecd6794) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '4e9eafbb5a705e2ba971a71bfc790037') in 0.000465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 44.048236 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_add_anchor_128.psd
+  artifactKey: Guid(bfc46d4aefe325b41ae736b7ea428742) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_add_anchor_128.psd using Guid(bfc46d4aefe325b41ae736b7ea428742) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '426cc67977b1774839dc8331be08f325') in 0.015417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_settings_128.psd
+  artifactKey: Guid(5041d99a05bf7e84b94c5fc698982132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_settings_128.psd using Guid(5041d99a05bf7e84b94c5fc698982132) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '514a2556df1419761ea01c2a4cc276e5') in 0.014384 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Util/ui_settings_128.psd
+  artifactKey: Guid(c84a429fca63142d792535cf349cd700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Util/ui_settings_128.psd using Guid(c84a429fca63142d792535cf349cd700) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '00c9710bfd54027299ed2c9581852553') in 0.004861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_construct_128.psd
+  artifactKey: Guid(e84b061f40bc72644ad08b6da38e35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_construct_128.psd using Guid(e84b061f40bc72644ad08b6da38e35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '99b08bba36d69b53acb13f7de2111cae') in 0.010973 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Util/ui_cross_128.psd
+  artifactKey: Guid(3e5908862759142b3bc78c06a039acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Util/ui_cross_128.psd using Guid(3e5908862759142b3bc78c06a039acd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'ff79796ebafc87134026c6037f697ac1') in 0.004959 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_arrow_down_128.psd
+  artifactKey: Guid(ee6d9713e0c8b5b4f951ec99bb86cd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_arrow_down_128.psd using Guid(ee6d9713e0c8b5b4f951ec99bb86cd7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '9555a85c8372b28775b6aea7c7ef88ac') in 0.013756 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_download_map_128.psd
+  artifactKey: Guid(e43fb9718e5b5d5498c418b2734a921f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_download_map_128.psd using Guid(e43fb9718e5b5d5498c418b2734a921f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '1c31bedf07b09bfd42bfccf357f85527') in 0.014292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Util/ui_options_128.png
+  artifactKey: Guid(99ada4548ef9f43858e10d48fff86f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Util/ui_options_128.png using Guid(99ada4548ef9f43858e10d48fff86f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '15fc79622266e5c7f60f0d2155c645c5') in 0.009699 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_thrash_128.psd
+  artifactKey: Guid(91466a3f0315d164ca7d402401c9e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_thrash_128.psd using Guid(91466a3f0315d164ca7d402401c9e3eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '447dc76ff71863c8541ef8e77bac2a58') in 0.012198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.782431 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_to_origin.psd
+  artifactKey: Guid(b31c82cde3ab6c34fab238113cdf1780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Mapping/ui_to_origin.psd using Guid(b31c82cde3ab6c34fab238113cdf1780) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: '7e696a64f34ca56082744cc10d619a0a') in 0.015410 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Util/uvgrid_grey.psd
+  artifactKey: Guid(bb5ac034366be9c478de03a648851324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Immersal SDK/2.1.0/Core Samples/Textures/Util/uvgrid_grey.psd using Guid(bb5ac034366be9c478de03a648851324) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 32 workers.
+ -> (artifact id: 'cd6b8ebaaa14042a34e07298cd82f42a') in 0.011690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 因為執行緒結束或應用程式要求，所以已中止 I/O 操作。
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
