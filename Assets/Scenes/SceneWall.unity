@@ -617,6 +617,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 012728b8c4a72fa4b9915b9cc9fa1dbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  LocationType: 1
   anchorPrefab: {fileID: 3192959533209414975, guid: afe608f3b1ec1fb47a5edffbfddb8bb0,
     type: 3}
   cameraTransform: {fileID: 1268655407}

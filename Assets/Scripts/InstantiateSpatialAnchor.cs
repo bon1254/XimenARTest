@@ -6,8 +6,15 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
 
+public enum LocationType
+{
+    Gate, Wall, Temple
+}
+
 public class InstantiateSpatialAnchor : MonoBehaviour
 {
+    public LocationType LocationType;
+
     [SerializeField] private GameObject anchorPrefab;
     [SerializeField] private Transform cameraTransform;
     [SerializeField] private Transform xRSpaceContent;
@@ -17,7 +24,8 @@ public class InstantiateSpatialAnchor : MonoBehaviour
 
     private SaveAnchorTransform saveFile;
 
-    private string m_Filename = "content.json";
+    private string m_Filename = "";
+    
 
     private GameObject anchor;
     [SerializeField] private List<Button> PositionButtons = new List<Button> ();
@@ -27,6 +35,13 @@ public class InstantiateSpatialAnchor : MonoBehaviour
 
     private void Start()
     {
+        if (LocationType == LocationType.Gate)
+            m_Filename = "GateLocation.json";
+        else if (LocationType == LocationType.Wall)
+            m_Filename = "WallLocation.json";
+        else
+            m_Filename = "TempleLocation.json";
+
         if (PositionButtons.Count >= 6)
         {
             PositionButtons[0].onClick.AddListener(() => AdjustPosition(Vector3.right));    // +X
