@@ -26,12 +26,13 @@ public class InstantiateSpatialAnchor : MonoBehaviour
 
     private string m_Filename = "";
     
-
     private GameObject anchor;
     [SerializeField] private List<Button> PositionButtons = new List<Button> ();
     [SerializeField] private List<Button> RotationButtons = new List<Button>();
     [SerializeField] TMP_InputField InputField_PositionValue;
     [SerializeField] TMP_InputField InputField_RotationValue;
+
+    [SerializeField, Header("UI")] private GameObject Panel_EditMenu;
 
     private void Start()
     {
@@ -155,6 +156,11 @@ public class InstantiateSpatialAnchor : MonoBehaviour
             Debug.LogWarningFormat("{0}\n.json file for content storage not found, Created a new file", nullerr.Message);
             File.WriteAllText(dataPath, "");
         }
+    }
+
+    public void EnableEditMenu()
+    {
+        Panel_EditMenu.SetActive(!Panel_EditMenu.activeSelf);
     }
 }
 

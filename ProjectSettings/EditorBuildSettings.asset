@@ -13,10 +13,10 @@ EditorBuildSettings:
     guid: 5d2fde13927bea645850d43477e77a14
   - enabled: 1
     path: Assets/Scenes/SceneGate.unity
-    guid: a9127a64cc1f1144b84222101ed76f30
+    guid: 6d27059cedb190c468ed3470c341a041
   - enabled: 1
     path: Assets/Scenes/SceneWall.unity
-    guid: 78b17acacb7c1bd47826ee8652fa31a2
+    guid: 50d5c55ceed32e54ebfe5a7d6ddb5dea
   m_configObjects:
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 01ddf566bc82ffe4390946314996d96a,
       type: 2}
